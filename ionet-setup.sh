@@ -252,7 +252,7 @@ fi
 sudo apt-mark hold nvidia* libnvidia*
 # Add docker group and user to group docker
 sudo groupadd docker || true
-sudo usermod -aG docker $USER || true
+#sudo usermod -aG docker $USER || true
 newgrp docker || true
 # Workaround for NVIDIA Docker Issue
 echo "Applying workaround for NVIDIA Docker issue as per https://github.com/NVIDIA/nvidia-docker/issues/1730"
