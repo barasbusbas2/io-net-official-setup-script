@@ -231,7 +231,7 @@ else
 
     # Install docker-compose subcommand
     sudo apt -y install docker-compose
-    sudo ln -sv /usr/libexec/docker/cli-plugins/docker-compose /usr/bin/docker-compose
+    #sudo ln -sv /usr/libexec/docker/cli-plugins/docker-compose /usr/bin/docker-compose
     docker-compose --version
 fi
 
